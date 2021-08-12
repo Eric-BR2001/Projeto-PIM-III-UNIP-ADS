@@ -513,7 +513,7 @@ int main()
                                                   modelo[strlen(modelo) - 1] = '\0';
                                                   SubstEspaco(modelo);
                                                   
-                                                  printf("\n\tDIGITE O ANO (ex.: 1981): ");
+                                                  printf("\n\tDIGITE A AVALIACAO DA CASA(1-10): ");
                                                   fgets(avaliacao,6,stdin);
                                                   avaliacao[strlen(avaliacao) - 1] = '\0';
                                                   SubstEspaco(avaliacao);
@@ -654,4 +654,5 @@ int main()
     
     exit(0);	
 }
+
 
